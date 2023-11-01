@@ -92,7 +92,7 @@
         <ul>
           <li>Total time spent outside of the recursive calls: O(n) + Θ(n) + Θ(1) = Θ(n)</li>
           <li>The recursive call in line 16: T(g) &#60;= T(n/5)</li>
-          <li>The recursive call in line 23, 24: T(7n/10)</li>
+          <li>The recursive call in line 23, 24: T(7n/10) [why? : 5g - (3g/2) = 7g/2 &#60;= 7n/10]</li>
         </ul>
         <p>T(n) &#60;= T(n/5) + T(7n/10) + Θ(n) /  By substitution method</p>
     </div>
